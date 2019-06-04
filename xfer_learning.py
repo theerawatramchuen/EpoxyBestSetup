@@ -13,6 +13,7 @@ from tensorflow.python.keras.layers import Dense, Flatten, GlobalAveragePooling2
 
 num_classes = 2
 resnet_weights_path = 'resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5'
+#Download at https://www.kaggle.com/keras/resnet50/downloads/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5/2
 
 my_new_model = Sequential()
 my_new_model.add(ResNet50(include_top=False, pooling='avg', weights=resnet_weights_path))
