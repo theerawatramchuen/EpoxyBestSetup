@@ -38,7 +38,7 @@ import time
 from keras.preprocessing import image as image_utils
 import matplotlib as plt
 
-strpath = "C:/Users/Administrator/Desktop/PyTest/test_set/rejects/"
+strpath = "dataset/test_set/goods/"
 #"C:\Users\Administrator\Desktop\PyTest\Allimg"
 
 print("path image : "+strpath)
